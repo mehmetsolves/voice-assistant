@@ -31,3 +31,16 @@ A **Voice Assistant** leveraging the Gemini API for long-term memory, designed t
 3. Install dependencies:
 
 `pip install -r requirements.txt`
+
+Set up the Gemini API:
+
+Sign up for a Gemini API key here. 
+Add your API key to a .env file in the project root:
+
+`GEMINI_API_KEY=your_api_key`
+
+### Usage
+Run the voice assistant:
+`python main.py`
+
+
