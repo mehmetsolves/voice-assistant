@@ -57,7 +57,7 @@ class GeminiInteractiveVoiceChat:
     def __init__(self):
         # Klasör ve API ayarları
         self.output_folder = "captured_images"
-        self.api_key = "AIzaSyBMGu6bulgP3LRA-gBBzf0xRUYhYfPLc1g"
+        self.api_key = "GEMİNİ_API_KEY"
         os.makedirs(self.output_folder, exist_ok=True)
         
         # Gemini AI konfigürasyonu
